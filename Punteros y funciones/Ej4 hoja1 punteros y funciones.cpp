@@ -8,7 +8,7 @@ using namespace System;
 using namespace std;
 
 
-void DibujaCuadrado()
+void DibujaRectángulo()
 {
 	int n1;
 	int x;
@@ -37,6 +37,7 @@ void DibujaCuadrado()
 	cout << "Coordenada Y: ";
 	cin >> y;
 
+	cout << endl;
 	cout << "Ingrese el color del rect" << char(160) << "ngulo" << endl;
 	cout << "======================================================" << endl;
 	cout << "Azul: 0\n";
@@ -104,7 +105,7 @@ void DibujaCuadrado()
 								{
 									cout << endl;
 									cout << "ERROR \n";
-									cout << "Debe ingresar uno de los colores ofrecidos";
+									cout << "Debe ingresar uno de los colores ofrecidos \n";
 									cout << endl;
 
 									n1 = 1;
@@ -146,7 +147,7 @@ void DibujaCuadrado()
 int main()
 {
 
-	DibujaCuadrado();
+	DibujaRectángulo();
 
 	_getch();
 
